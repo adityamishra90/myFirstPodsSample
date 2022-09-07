@@ -20,6 +20,8 @@
 		4B87B86828C89F640089F5B1 /* myFirstPodsSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B87B86728C89F640089F5B1 /* myFirstPodsSampleAppTests.swift */; };
 		4B87B87228C89F640089F5B1 /* myFirstPodsSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B87B87128C89F640089F5B1 /* myFirstPodsSampleAppUITests.swift */; };
 		4B87B87428C89F640089F5B1 /* myFirstPodsSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B87B87328C89F640089F5B1 /* myFirstPodsSampleAppUITestsLaunchTests.swift */; };
+		4B87B87F28C8A06D0089F5B1 /* TimeStamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B87B87E28C8A06C0089F5B1 /* TimeStamps.swift */; };
+		4B87B88128C8A3C10089F5B1 /* TimesStampsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B87B88028C8A3C10089F5B1 /* TimesStampsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		4B87B86D28C89F640089F5B1 /* myFirstPodsSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFirstPodsSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B87B87128C89F640089F5B1 /* myFirstPodsSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstPodsSampleAppUITests.swift; sourceTree = "<group>"; };
 		4B87B87328C89F640089F5B1 /* myFirstPodsSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFirstPodsSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B87B87E28C8A06C0089F5B1 /* TimeStamps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeStamps.swift; sourceTree = "<group>"; };
+		4B87B88028C8A3C10089F5B1 /* TimesStampsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesStampsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 			children = (
 				4B4A603228C89BEC0081BDE2 /* myFirstPodsSample.h */,
 				4B4A603328C89BEC0081BDE2 /* myFirstPodsSample.docc */,
+				4B87B87E28C8A06C0089F5B1 /* TimeStamps.swift */,
 			);
 			path = myFirstPodsSample;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				4B87B86728C89F640089F5B1 /* myFirstPodsSampleAppTests.swift */,
+				4B87B88028C8A3C10089F5B1 /* TimesStampsTests.swift */,
 			);
 			path = myFirstPodsSampleAppTests;
 			sourceTree = "<group>";
@@ -379,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B87B87F28C8A06D0089F5B1 /* TimeStamps.swift in Sources */,
 				4B4A603428C89BEC0081BDE2 /* myFirstPodsSample.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B87B88128C8A3C10089F5B1 /* TimesStampsTests.swift in Sources */,
 				4B87B86828C89F640089F5B1 /* myFirstPodsSampleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,6 +645,7 @@
 		4B4A604728C89BEC0081BDE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5LJ2WM67G5;
@@ -653,6 +662,7 @@
 		4B4A604828C89BEC0081BDE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5LJ2WM67G5;
