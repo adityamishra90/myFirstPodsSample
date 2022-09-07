@@ -24,6 +24,6 @@ class TimesStampsTests: XCTestCase {
     }
     
     func testTimeStamp() {
-        XCTAssertEqual(myTimesStamp.setTimestamp(epochTime: "0"), "6 days ago")
+        XCTAssertEqual(myTimesStamp.setTimestamp(epochTime: "0"), "0 days ago")
     }
 }
