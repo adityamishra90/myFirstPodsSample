@@ -25,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4B1FC6C228C9AF9F00657D56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B4A602628C89BEC0081BDE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B87B84D28C89F630089F5B1;
+			remoteInfo = myFirstPodsSampleApp;
+		};
 		4B4A603B28C89BEC0081BDE2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4B4A602628C89BEC0081BDE2 /* Project object */;
@@ -229,6 +236,7 @@
 			);
 			dependencies = (
 				4B4A603C28C89BEC0081BDE2 /* PBXTargetDependency */,
+				4B1FC6C328C9AF9F00657D56 /* PBXTargetDependency */,
 			);
 			name = myFirstPodsSampleTests;
 			productName = myFirstPodsSampleTests;
@@ -303,6 +311,7 @@
 					};
 					4B4A603828C89BEC0081BDE2 = {
 						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 4B87B84D28C89F630089F5B1;
 					};
 					4B87B84D28C89F630089F5B1 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -429,6 +438,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4B1FC6C328C9AF9F00657D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B87B84D28C89F630089F5B1 /* myFirstPodsSampleApp */;
+			targetProxy = 4B1FC6C228C9AF9F00657D56 /* PBXContainerItemProxy */;
+		};
 		4B4A603C28C89BEC0081BDE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4B4A602E28C89BEC0081BDE2 /* myFirstPodsSample */;
@@ -660,6 +674,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFirstPodsSampleApp.app/myFirstPodsSampleApp";
 			};
 			name = Debug;
 		};
@@ -677,6 +692,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFirstPodsSampleApp.app/myFirstPodsSampleApp";
 			};
 			name = Release;
 		};
@@ -685,6 +701,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DP2WF9948;
@@ -703,6 +720,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.timesclub.TimesClub.myFirstPodsSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -714,6 +732,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DP2WF9948;
@@ -732,6 +751,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.timesclub.TimesClub.myFirstPodsSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -782,6 +802,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6DP2WF9948;
@@ -800,9 +821,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5LJ2WM67G5;
+				DEVELOPMENT_TEAM = 6DP2WF9948;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.timesclub.TimesClub.myFirstPodsSampleAppUITests;
