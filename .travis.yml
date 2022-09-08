@@ -1,8 +1,9 @@
-language: objective-c
+language: Swift
 
-osx_image: xcode13.4.1
+osx_image: xcode11.1
 env:
   matrix:
-    - TEST_SDK=iphonesimulator15.5 OS=15.5 NAME='iPhone 13 Pro Max'
+    - TEST_SDK=iphonesimulator15.2 OS=15.2 NAME='iPhone 12 Pro'
+    - TEST_SDK=iphonesimulator15.2 OS=15.2 NAME='iPhone 12'
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project myFirstPodsSample.xcodeproj -scheme myFirstPodsSample -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
